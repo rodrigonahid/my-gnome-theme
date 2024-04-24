@@ -1,10 +1,10 @@
 /* Ant palet */
-@define-color lime #50fa7a;
+@define-color lime #36C84B;
 @define-color cyan #8be9fd;
-@define-color yellow #f1fa8c;
+@define-color yellow #FDBC40;
 @define-color orange #ffb86c;
 @define-color purple #bd93f9;
-@define-color red #ff5555;
+@define-color red #FC5753;
 
 /* default color scheme */
 @define-color bg_color #0E1116;

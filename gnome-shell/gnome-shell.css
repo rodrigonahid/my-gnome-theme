@@ -9,7 +9,7 @@ stage {
 /* WIDGETS */
 /* Buttons */
 .button, .icon-button, .app-folder-dialog .edit-folder-button, .quick-settings-system-item .icon-button {
-  color: #C3C7D1;
+  color: hsl(223, 13%, 79%);
   background-color: #2c2f3c;
   box-shadow: none;
   border: 1px solid #1b1c24;
@@ -262,7 +262,7 @@ StScrollBar {
 .end-session-dialog {
   border: none; }
   .end-session-dialog .modal-dialog-linked-button:last-child {
-    background-color: #ff5555;
+    background-color: #FC5753;
     color: #fff; }
     .end-session-dialog .modal-dialog-linked-button:last-child:hover, .end-session-dialog .modal-dialog-linked-button:last-child:focus {
       background: #ff2c2c;
@@ -510,7 +510,7 @@ StScrollBar {
 
 .popup-menu-content {
   padding: 6px;
-  background: #21232d;
+  background: #0E1017;
   border-radius: 12px;
   border: 1px solid #1b1c24; }
 
@@ -594,7 +594,7 @@ StScrollBar {
     -barlevel-height: 0.4em;
     -barlevel-background-color: #373a4b;
     -barlevel-active-background-color: rgba(189, 147, 249, 0.5);
-    -barlevel-overdrive-color: #ff5555;
+    -barlevel-overdrive-color: #FC5753;
     -barlevel-overdrive-separator-width: 0.2em; }
   .osd-window .level-bar {
     background-color: rgba(189, 147, 249, 0.5);
@@ -720,7 +720,7 @@ StScrollBar {
 /* TOP BAR */
 #panel {
   background-gradient-direction: none;
-  background-color: rgba(33, 35, 45, 0.95);
+  background-color: black;
   /* transition from solid to transparent */
   transition-duration: 500ms;
   font-weight: bold;
@@ -736,7 +736,7 @@ StScrollBar {
     -panel-corner-border-width: 2px;
     -panel-corner-border-color: transparent; }
     #panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus {
-      -panel-corner-border-color: rgba(204, 171, 250, 0.5); }
+      -panel-corner-border-color: rgba(33,35,45, 0.5); }
     #panel .panel-corner.lock-screen, #panel .panel-corner.login-screen, #panel .panel-corner.unlock-screen {
       -panel-corner-radius: 0;
       -panel-corner-background-color: transparent;
@@ -756,21 +756,21 @@ StScrollBar {
     #panel .panel-button .popup-menu-arrow {
       icon-shadow: none; }
     #panel .panel-button:hover {
-      box-shadow: inset 0 0 0 100px rgba(55, 58, 75, 0.95);
+      box-shadow: inset 0 0 0 100px rgba(55, 58, 75, 0.5);
       color: white;
       transition-duration: 200ms; }
       #panel .panel-button:hover.clock-display {
         box-shadow: none; }
         #panel .panel-button:hover.clock-display .clock {
-          box-shadow: inset 0 0 0 100px rgba(55, 58, 75, 0.95); }
+          box-shadow: inset 0 0 0 100px rgba(55, 58, 75, 0.5); }
     #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
-      box-shadow: inset 0 0 0 100px rgba(189, 147, 249, 0.5);
+      box-shadow: inset 0 0 0 100px rgba(48,45,64,1);
       color: #f8f8f2;
       transition-duration: 200ms; }
       #panel .panel-button:active.clock-display, #panel .panel-button:overview.clock-display, #panel .panel-button:focus.clock-display, #panel .panel-button:checked.clock-display {
         box-shadow: none; }
         #panel .panel-button:active.clock-display .clock, #panel .panel-button:overview.clock-display .clock, #panel .panel-button:focus.clock-display .clock, #panel .panel-button:checked.clock-display .clock {
-          box-shadow: inset 0 0 0 100px rgba(189, 147, 249, 0.5); }
+          box-shadow: inset 0 0 0 100px rgba(48,45,64,0.8); }
     #panel .panel-button .system-status-icon {
       icon-size: 1.09em;
       padding: 0 5px; }
@@ -802,7 +802,7 @@ StScrollBar {
   box-shadow: none; }
 
 .world-clocks-button, .weather-button, .events-button {
-  background: #262834;
+  background: #10121A;
   border-radius: 7px;
   box-shadow: 0px 0px 1px 1px #1b1c24 inset;
   color: #C3C7D1; }
@@ -1088,7 +1088,7 @@ StScrollBar {
   border-radius: 32px;
   /* wish we could do 50% */
   border: 1px solid #1b1c24;
-  background: #21232d;
+  background: #0E1017;
   padding: 13px; }
   .system-menu-action:hover, .system-menu-action:focus {
     border: 1px solid rgba(189, 147, 249, 0.5);
@@ -1118,7 +1118,7 @@ StScrollBar {
   icon-size: 1.09em; }
 
 .window-close {
-  background-color: #21232d;
+  background-color: #0E1017;
   color: #cfd2da;
   border-radius: 21px;
   border: 2px solid #1b1c24;
@@ -1219,7 +1219,7 @@ StScrollBar {
 .window-caption {
   spacing: 20px;
   color: #f8f8f2;
-  background-color: #21232d;
+  background-color: #0E1017;
   border: 1px solid #1b1c24;
   padding: 4px 8px; }
 
@@ -1296,7 +1296,7 @@ StScrollBar {
 
 /* DASHBOARD */
 .dash-background {
-  background-color: #21232d; }
+  background-color: #0E1017; }
 
 .dash-separator {
   width: 1px;
@@ -1415,7 +1415,7 @@ StScrollBar {
   border-radius: 18px; }
 
 .app-folder-dialog {
-  background-color: #21232d;
+  background-color: #0E1017;
   border: none;
   border-radius: 30px;
   box-shadow: none; }
@@ -2175,7 +2175,7 @@ StScrollBar {
 #dashtodockContainer #dash {
   background: transparent !important; }
   #dashtodockContainer #dash .dash-background {
-    background: #21232d !important;
+    background: #0E1017 !important;
     border: none; }
   #dashtodockContainer #dash .dash-item-container .app-well-app .overview-icon.focused .overview-icon,
   #dashtodockContainer #dash .dash-item-container .show-apps .overview-icon.focused .overview-icon {

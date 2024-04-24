@@ -463,9 +463,9 @@ button {
       padding-right: 8px; }
   combobox:drop(active) button.combo, notebook > header > tabs > arrow:drop(active),
   button:drop(active) {
-    color: #50fa7a;
-    border-color: #50fa7a;
-    box-shadow: inset 0 0 0 1px #50fa7a; }
+    color: #36C84B;
+    border-color: #36C84B;
+    box-shadow: inset 0 0 0 1px #36C84B; }
 row:selected button.flat:not(:active):not(:checked):not(:hover):not(disabled) {
   color: #f8f8f2;
   border-color: transparent; }
@@ -1535,11 +1535,11 @@ colorswatch.light overlay {
 colorswatch:drop(active) {
   box-shadow: none; }
   colorswatch:drop(active).light overlay {
-    border-color: #50fa7a;
-    box-shadow: inset 0 0 0 2px rgba(25, 26, 34, 0.9), inset 0 0 0 1px #50fa7a; }
+    border-color: #36C84B;
+    box-shadow: inset 0 0 0 2px rgba(25, 26, 34, 0.9), inset 0 0 0 1px #36C84B; }
   colorswatch:drop(active).dark overlay {
-    border-color: #50fa7a;
-    box-shadow: inset 0 0 0 2px rgba(25, 26, 34, 0.9), inset 0 0 0 1px #50fa7a; }
+    border-color: #36C84B;
+    box-shadow: inset 0 0 0 2px rgba(25, 26, 34, 0.9), inset 0 0 0 1px #36C84B; }
 colorswatch overlay {
   box-shadow: inset 0 3px 2px -2px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(25, 26, 34, 0.9); }
@@ -1739,8 +1739,8 @@ spinbutton:not(.vertical), spinbutton.vertical > text, entry {
   spinbutton:drop(active):focus-within:not(.vertical), spinbutton.vertical > text:drop(active):focus-within, spinbutton:drop(active):not(.vertical), spinbutton.vertical > text:drop(active),
   entry:drop(active):focus-within,
   entry:drop(active) {
-    border-color: #50fa7a;
-    box-shadow: inset 0 0 0 1px #50fa7a; }
+    border-color: #36C84B;
+    box-shadow: inset 0 0 0 1px #36C84B; }
   .osd spinbutton:not(.vertical), .osd spinbutton.vertical > text,
   .osd entry {
     color: white;
@@ -1808,7 +1808,7 @@ entry, spinbutton.vertical.linked:not(.vertical) > text:drop(active) +
 entry, .linked:not(.vertical) >
 entry:drop(active) +
 entry {
-  border-left-color: #50fa7a; }
+  border-left-color: #36C84B; }
 .linked.vertical > spinbutton:not(:disabled):not(.vertical) + entry:not(:disabled), spinbutton.vertical.linked > text:not(:disabled) + entry:not(:disabled), .linked.vertical > spinbutton:not(:disabled):not(.vertical) + spinbutton:not(:disabled):not(.vertical), spinbutton.vertical.linked > text:not(:disabled) + spinbutton:not(:disabled):not(.vertical), spinbutton.vertical.linked > spinbutton:not(:disabled):not(.vertical) + text:not(:disabled), spinbutton.vertical.linked > text:not(:disabled) + text:not(:disabled), .linked.vertical >
 entry:not(:disabled) + entry:not(:disabled), .linked.vertical >
 entry:not(:disabled) + spinbutton:not(:disabled):not(.vertical), spinbutton.vertical.linked > entry:not(:disabled) + text:not(:disabled) {
@@ -1836,7 +1836,7 @@ spinbutton.vertical.linked > text + entry:drop(active):not(:only-child), .linked
 entry + spinbutton:drop(active):not(:only-child):not(.vertical), spinbutton.vertical.linked > entry + text:drop(active):not(:only-child),
 .linked.vertical >
 entry + entry:drop(active):not(:only-child) {
-  border-top-color: #50fa7a; }
+  border-top-color: #36C84B; }
 .linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + spinbutton:not(.vertical), spinbutton.vertical.linked > text:focus:not(:only-child) + spinbutton:not(.vertical), spinbutton.vertical.linked > spinbutton:focus:not(:only-child):not(.vertical) + text, spinbutton.vertical.linked > text:focus:not(:only-child) + text,
 .linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + entry,
 spinbutton.vertical.linked > text:focus:not(:only-child) + entry,
@@ -1866,7 +1866,7 @@ entry:drop(active):not(:only-child) + entry,
 entry:drop(active):not(:only-child) + button,
 .linked.vertical >
 entry:drop(active):not(:only-child) + combobox > box > button.combo {
-  border-top-color: #50fa7a; }
+  border-top-color: #36C84B; }
 
 treeview entry:focus-within:dir(rtl), treeview entry:focus-within:dir(ltr) {
   background-color: #020409;
@@ -2118,7 +2118,7 @@ GraniteWidgetsWelcome {
   background-color: transparent;
   padding: 8px 6px; }
 .storage-bar .fill-block {
-  background-color: #f1fa8c;
+  background-color: #FDBC40;
   border: none;
   box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   transition: all 200ms ease-in-out;
@@ -2139,7 +2139,7 @@ GraniteWidgetsWelcome {
   .storage-bar .fill-block.audio {
     background-color: #ffb86c; }
   .storage-bar .fill-block.photo {
-    background-color: #ff5555; }
+    background-color: #FC5753; }
   .storage-bar .fill-block.video {
     background-color: #bd93f9; }
   .storage-bar .fill-block .legend {
@@ -2726,8 +2726,8 @@ levelbar > trough > block {
     border-color: #ff9f39;
     background-color: #ff9f39; }
   levelbar > trough > block.high, levelbar > trough > block:not(.empty) {
-    border-color: #50fa7a;
-    background-color: #50fa7a; }
+    border-color: #36C84B;
+    background-color: #36C84B; }
   levelbar > trough > block.full {
     border-color: #4caec3;
     background-color: #4caec3; }
@@ -3147,7 +3147,7 @@ notebook > header {
       notebook > header tab button.flat:hover {
         background: transparent;
         box-shadow: none;
-        color: #ff5555; }
+        color: #FC5753; }
       notebook > header tab button.flat, notebook > header tab button.flat:backdrop {
         color: alpha(currentColor,0.3); }
       notebook > header tab button.flat:last-child {
@@ -4099,7 +4099,7 @@ treeview ~ scrollbar.vertical {
     border-color: rgba(26, 27, 35, 0.91);
     transition: 200ms ease-out; }
   .sidebar list, .nautilus-window .navigation-sidebar list {
-    background-color: #20212b; }
+    background-color: #12141B; }
   .sidebar row, .nautilus-window .navigation-sidebar row {
     padding: 2px 12px; }
     .sidebar row:selected, .nautilus-window .navigation-sidebar row:selected {
@@ -4146,11 +4146,11 @@ placessidebar row {
   placessidebar row.sidebar-new-bookmark-row {
     color: rgba(189, 147, 249, 0.5); }
   placessidebar row:drop(active):not(:disabled) {
-    box-shadow: inset 0 1px #50fa7a, inset 0 -1px #50fa7a; }
+    box-shadow: inset 0 1px #36C84B, inset 0 -1px #36C84B; }
     placessidebar row:drop(active):not(:disabled), placessidebar row:drop(active):not(:disabled) label, placessidebar row:drop(active):not(:disabled) image {
-      color: #50fa7a; }
+      color: #36C84B; }
     placessidebar row:drop(active):not(:disabled):selected {
-      background-color: #50fa7a; }
+      background-color: #36C84B; }
       placessidebar row:drop(active):not(:disabled):selected, placessidebar row:drop(active):not(:disabled):selected label, placessidebar row:drop(active):not(:disabled):selected image {
         color: #f8f8f2; }
 
@@ -4371,9 +4371,9 @@ switch {
     switch:backdrop:disabled {
       background-color: #22232e; }
   switch:active, switch:checked {
-    background-color: #50fa7a; }
+    background-color: #36C84B; }
     switch:active:backdrop, switch:checked:backdrop {
-      background-color: #50fa7a; }
+      background-color: #36C84B; }
       switch:active:backdrop slider:backdrop, switch:checked:backdrop slider:backdrop {
         box-shadow: none;
         background-color: rgba(40, 42, 54, 0.9);
@@ -4475,7 +4475,7 @@ treeview.view {
   treeview.view:selected:focus,
   treeview.view:selected {
     border-radius: 0;
-    outline-color: #ff5555; }
+    outline-color: #FC5753; }
   columnview.view:disabled,
   treeview.view:disabled {
     color: #8b8c8e; }
@@ -4594,7 +4594,7 @@ treeview.view {
   treeview.view header.button.dnd:hover,
   treeview.view header.button.dnd {
     padding: 0 6px;
-    color: #ff5555;
+    color: #FC5753;
     background-image: none;
     background-color: rgba(189, 147, 249, 0.5);
     border-style: none;
@@ -5016,7 +5016,7 @@ button.raven-trigger {
   border: none;
   transition: all 150ms ease-in; }
   .budgie-panel .alert {
-    color: #ff5555; }
+    color: #FC5753; }
   .budgie-panel:backdrop {
     color: #f8f8f2;
     background-color: rgba(8, 9, 12, 0.95); }
@@ -5335,7 +5335,7 @@ button.raven-trigger {
       .raven .powerstrip button.image-button:last-child:hover {
         background: rgba(255, 85, 85, 0.85); }
       .raven .powerstrip button.image-button:last-child:active {
-        background: #ff5555; }
+        background: #FC5753; }
   .raven .option-subtitle {
     font-size: 13px; }
 
@@ -5413,7 +5413,7 @@ calendar.raven-calendar {
   color: #f8f8f2; }
   .budgie-notification button:hover, .budgie-osd button:hover, .budgie-switcher button:hover {
     background-color: transparent;
-    color: #ff5555;
+    color: #FC5753;
     box-shadow: none; }
   .budgie-notification button:active, .budgie-osd button:active, .budgie-switcher button:active, .budgie-notification button:checked, .budgie-osd button:checked, .budgie-switcher button:checked {
     background-color: transparent;
@@ -5498,7 +5498,7 @@ calendar.raven-calendar {
 .budgie-polkit-dialog .message {
   color: rgba(248, 248, 242, 0.7); }
 .budgie-polkit-dialog .failure {
-  color: #ff5555; }
+  color: #FC5753; }
 
 .budgie-run-dialog entry.search, .budgie-run-dialog entry.search:focus {
   font-size: 120%;
